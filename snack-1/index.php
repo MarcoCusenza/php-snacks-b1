@@ -17,7 +17,8 @@
     "p1" => ["Olimpia Milano", "55", "Cantù", "60"],
     "p2" => ["Virtus Bologna", "72", "New Basket Brindisi", "62"],
     "p3" => ["Dinamo Polisportiva", "45", "Victoria Libertas", "55"],
-    "p4" => ["Milan", "1", "Spezia+Arbitro", "2"],
+    "p4" => ["Fortitudo Bologna", "50", "Reyer Venezia", "50"],
+    "p5" => ["Milan", "1", "Spezia + Arbitro", "2"],
   ];
   ?>
 
@@ -67,19 +68,19 @@
             echo ($g1["p" . $i][2]);
             echo ("</div>");
           } else {
-            echo ("<div class='sq-casa winner'>");
+            echo ("<div class='sq-casa pari'>");
             echo ($g1["p" . $i][0]);
             echo ("</div>");
 
-            echo ("<div class='pt-casa winner'>");
+            echo ("<div class='pt-casa pari'>");
             echo ($g1["p" . $i][1]);
             echo ("</div>");
 
-            echo ("<div class='pt-ospite winner'>");
+            echo ("<div class='pt-ospite pari'>");
             echo ($g1["p" . $i][3]);
             echo ("</div>");
 
-            echo ("<div class='sq-ospite winner'>");
+            echo ("<div class='sq-ospite pari'>");
             echo ($g1["p" . $i][2]);
             echo ("</div>");
           }

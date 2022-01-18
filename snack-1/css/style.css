@@ -38,5 +38,9 @@ h1 {
 }
 
 .winner {
-  color: yellowgreen;
+  color: rgb(148, 99, 212);
+}
+
+.pari {
+  color: #ffed4e;
 }
