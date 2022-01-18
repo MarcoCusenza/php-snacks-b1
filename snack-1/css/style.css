@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(37, 37, 37);
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: rgb(255, 230, 0);
+}
+
+.tab {
+  display: grid;
+  grid-template-columns: 40% 10% 10% 40%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  font-weight: 600;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: 40% 10% 10% 40%;
+  font-size: 20px;
+  margin: 20px 0 10px 0;
+  color: rgb(42, 165, 149);
+}
+
+.winner {
+  color: yellowgreen;
+}
